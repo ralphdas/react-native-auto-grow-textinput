@@ -14,13 +14,13 @@ $ yarn add react-native-auto-grow-textinput
 After, you can use it in your project:
 
 ```javascript
-import { AutoGrowInputText } from 'react-native-auto-grow-textinput';
+import { AutoGrowTextInput } from 'react-native-auto-grow-textinput';
 
 ...
 // If you don't need max height
-<AutoGrowInputText placeholder='Some text here' />
+<AutoGrowTextInput placeholder='Some text here' />
 // else if you need to set up max height
-<AutoGrowInputText placeholder='Some text here' maxHeight={ 120 } />
+<AutoGrowTextInput placeholder='Some text here' maxHeight={ 120 } />
 ...
 // Also you can use any other TextInput props with AutoGrowInputText component
 ```
