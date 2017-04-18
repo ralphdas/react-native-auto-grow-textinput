@@ -56,6 +56,7 @@ export default class AutoGrowTextInput extends React.Component {
         multiline={ true }
         underlineColorAndroid='transparent'
         onChange={ this._onChange }
+        onContentSizeChange= { this._onChange }
         style={[ externalStyle, textInputStyle ]}
       />
     );
